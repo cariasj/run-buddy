@@ -39,7 +39,7 @@ header nav ul{
   list-style: none;
     }
 header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
     }
@@ -72,7 +72,7 @@ section {
     /* Hero Style Start */
     .hero {
         background-image: url("../images/hero-bg.jpg");
-        
+        align-items: flex-start
         background-size: cover;
         background-position: center;
         display: flex;
@@ -123,7 +123,7 @@ section {
         margin: 3.5%;
         color: #fff;
         font-size: 18px;
-        line-height: 1.3;
+        line-height: 1.2;
       }
       .hero-cta h2 {
         font-style: italic;
@@ -153,7 +153,7 @@ section {
 
 
       .section-title {
-        font-size: 55px;
+        font-size: 48px;
         color: #024e76;
         padding-bottom: 20px;
         border-bottom: 3px solid;
@@ -170,13 +170,6 @@ section {
         border-color: #39a6b2;
       }
 
-      .steps div {
-        
-      }
-      
-      .steps img {
-      
-      }
       
       .step h3 {
         color: #024e76;
@@ -326,3 +319,19 @@ section {
       .flex-row {
         display: flex;
       }
+
+      /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+ 
+
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+
+}
